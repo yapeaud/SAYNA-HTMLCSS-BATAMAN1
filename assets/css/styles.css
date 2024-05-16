@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*==================== HEADER ====================*/
+header{
+    background-image: url('/assets/images/Illustrations/Bathome1.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+/* menu de navigation */
+.navbar{
+    border: solid 5px #bcbbbd;
+    border-top: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.nav-logo {
+    display: flex; /* Allow logo and potentially tagline to align horizontally */
+    align-items: center; /* Vertically center logo within the nav-logo */
+    justify-content: space-between;
+  }
+  .logo {
+    margin-right: 1rem; /* Add some margin between logo and links */
+  }
+  .nav-links {
+    display: flex; /* Arrange links horizontally */
+    list-style: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Space Grotesk';
+  }
+  .nav-links li {
+    margin-right: 1rem; /* Add spacing between links */
+  }
+  .nav-links a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffffff; /* Dark gray text color */
+    font-weight: 500; /* Slightly bolder font for links */
+    padding: 0.5rem 1rem; /* Add some padding for clickability */
+  }
+  .nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold ;
+  }
+  /* intro */
+  .para-intro{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    padding-top: 16rem;
+  }
+  .para-intro-bold{
+    font-weight: bold;
+  }
+  .intro{
+    position: relative;
+  }
+  .img1{
+    position: absolute;
+    top: 35%;
+    left: 93.5%;
+  }
+  .img2{
+    position: absolute;
+    top: 45%;
+    left: 95.5%;
+  }
+  .img3{
+    position: absolute;
+    top: 55%;
+    left: 95.5%;
+  }
+  .img4{
+    position: absolute;
+    top: 65%;
+    left: 95.5%;
+  }
+  .img5{
+    position: absolute;
+    top: 75%;
+    left: 93.5%;
+  }
