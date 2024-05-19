@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+  background-color: #000;
+}
 /*==================== HEADER ====================*/
 header{
     background-image: url('/assets/images/Illustrations/Bathome1.png');
@@ -65,29 +67,131 @@ header{
   }
   .intro{
     position: relative;
+    border: solid 5px #bcbbbd;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: 4%;
+    margin-right: 4%;
   }
   .img1{
     position: absolute;
     top: 35%;
-    left: 93.5%;
+    left: 92%;
   }
   .img2{
     position: absolute;
     top: 45%;
-    left: 95.5%;
+    left:95%;
   }
   .img3{
     position: absolute;
     top: 55%;
-    left: 95.5%;
+    left:95%;
   }
   .img4{
     position: absolute;
     top: 65%;
-    left: 95.5%;
+    left:95%;
   }
   .img5{
     position: absolute;
-    top: 75%;
-    left: 93.5%;
+    top: 70%;
+    left: 92%;
   }
+  /* .intro-logo{
+    
+  } */
+  .btn-intro{
+    background: linear-gradient(to right, #eddebf 40%, #890008 60% );
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Rajdhani;
+    opacity: 0.4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 20px;
+  }
+  .btn-intro:hover {
+    background: linear-gradient(to right, #eddebf 40%, #890008 60%);
+    opacity: 1;
+  }
+  /*====================  MAIN ====================*/
+  .container{
+    border: solid 5px #bcbbbd;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .fleche-down-header{
+    position: absolute;
+    left: 50%;
+  }
+  /* batman au cinéma */
+  .voir-le-hero, .les-adversaires, .allies{
+    padding-top: 8rem;
+    padding-left: 8rem;
+    padding-right: 16rem;
+  }
+  h1{
+    color: #ffffff;
+    font-family: Rajdhani;
+    font-size: 36px;
+    padding-bottom: 1rem;
+  }
+  .para{
+    color: #ffffff;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 4em;
+  }
+  .para-img{
+    position: relative;
+  }
+  .bathome2, .bathome5, .bathome9{
+    padding-left: 8rem;
+  }
+  .bathome3, .bathome6, .bathome8{
+    position: absolute;
+    top: 0%;
+    left: 32rem;
+  }
+  .bathome4, .bathome7, .bathome10{
+    position: absolute;
+    top: 0%;
+    left: 56rem;
+  }
+  /* némésis */
+  .bathome13{
+    width: 155px;
+    position: absolute;
+    left: 14rem;
+    top: 109.5rem;
+  }
+  /* alliés */
+  .bathome12{
+    position: absolute;
+    right: 0rem;
+    top: 155.5rem;
+    width: 370px;
+  }
+  .allies{
+    padding-top: 12rem;
+  }
+  .para-st{
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .st1{
+    padding-left: 90px;
+  }
+  .st2{
+    padding-left: 45px;
+  }
+  
