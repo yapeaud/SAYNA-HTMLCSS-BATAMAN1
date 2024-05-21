@@ -16,10 +16,9 @@ header{
     background-size: cover;
     height: 800px;
 }
+
 /* menu de navigation */
-.navbar{
-    border: solid 5px #bcbbbd;
-    border-top: 0;
+.navbar{ 
     margin-left: 4%;
     margin-right: 4%;
     padding-top: 1%;
@@ -65,14 +64,7 @@ header{
   .para-intro-bold{
     font-weight: bold;
   }
-  .intro{
-    position: relative;
-    border: solid 5px #bcbbbd;
-    border-top: 0;
-    border-bottom: 0;
-    margin-left: 4%;
-    margin-right: 4%;
-  }
+  
   .img1{
     position: absolute;
     top: 35%;
@@ -120,16 +112,17 @@ header{
   }
   /*====================  MAIN ====================*/
   .container{
-    border: solid 5px #bcbbbd;
+    /* border: solid 5px #bcbbbd;
     border-top: 0;
     border-bottom: 0;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 4%; */
   }
   .fleche-down-header{
     position: absolute;
     left: 50%;
   }
+
   /* batman au cinéma */
   .voir-le-hero, .les-adversaires, .allies{
     padding-top: 8rem;
@@ -150,48 +143,56 @@ header{
     padding-bottom: 4em;
   }
   .para-img{
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
   }
-  .bathome2, .bathome5, .bathome9{
-    padding-left: 8rem;
+  .st{
+    color: #ffffff;
+    text-align: center;
   }
-  .bathome3, .bathome6, .bathome8{
-    position: absolute;
-    top: 0%;
-    left: 32rem;
-  }
-  .bathome4, .bathome7, .bathome10{
-    position: absolute;
-    top: 0%;
-    left: 56rem;
-  }
+
   /* némésis */
   .bathome13{
     width: 155px;
     position: absolute;
-    left: 14rem;
-    top: 109.5rem;
+    left: 12rem;
+    top: 108rem;
   }
+
   /* alliés */
   .bathome12{
+    width: 350px;
     position: absolute;
     right: 0rem;
-    top: 155.5rem;
-    width: 370px;
+    top: 158rem;
   }
   .allies{
     padding-top: 12rem;
   }
-  .para-st{
+ 
+  /* justice league */
+  .justice-league{
+    padding-top: 8rem;
+    padding-left: 12rem;
+  }
+  .para-jl{
     color: #ffffff;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
+    width:800px;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    text-align: justify;
   }
-  .st1{
-    padding-left: 90px;
+  .bg-jl{
+    background-image: url('/assets/images/Illustrations/Bathome11.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 10rem;
   }
-  .st2{
-    padding-left: 45px;
+
+  /* multimédia */
+  #multimedia{
+    padding-left: 12rem;
   }
-  
+ 
