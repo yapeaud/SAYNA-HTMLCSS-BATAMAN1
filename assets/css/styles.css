@@ -11,7 +11,7 @@ body{
 /*==================== HEADER ====================*/
 header{
     background-image: url('/assets/images/Illustrations/Bathome1.png');
-    background-position: center top;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -111,13 +111,13 @@ header{
     opacity: 1;
   }
   /*====================  MAIN ====================*/
-  .container{
-    /* border: solid 5px #bcbbbd;
+  /* .container{
+    border: solid 5px #bcbbbd;
     border-top: 0;
     border-bottom: 0;
     margin-left: 4%;
-    margin-right: 4%; */
-  }
+    margin-right: 4%; 
+  }*/
   .fleche-down-header{
     position: absolute;
     left: 50%;
@@ -195,4 +195,40 @@ header{
   #multimedia{
     padding-left: 12rem;
   }
- 
+  .multi-genre{
+    background: linear-gradient(149deg, #eddebf 40%, #19587d 40% );
+    opacity: 0.4;
+    color: #ffffff;
+    width: 35rem;
+    height: 180px;
+    text-align: justify;
+    font-family: 'Space Grotesk';
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border: #19587d 1px solid;
+ }
+ .multi-text-color{
+  color: #f8f184;
+ }
+ .multimedia{
+  display: flex;
+  position: relative;
+ }
+
+ .fleche1{
+  position: absolute;
+  top: 6rem;
+ }
+ .fleche2{
+  position: absolute;
+  top: 6rem;
+  left: 55rem;
+ }
+ .bathome-ba1{
+  padding-left: 4.5rem;
+ }
+ .bande-annonce{
+  padding-top: 90px;
+ }
