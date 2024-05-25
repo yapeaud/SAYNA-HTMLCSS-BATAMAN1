@@ -25,28 +25,28 @@ header{
     padding-bottom: 4%;
 }
 .nav-logo {
-    display: flex; /* Allow logo and potentially tagline to align horizontally */
-    align-items: center; /* Vertically center logo within the nav-logo */
+    display: flex;
+    align-items: center;
     justify-content: space-between;
   }
   .logo {
-    margin-right: 1rem; /* Add some margin between logo and links */
+    margin-right: 1rem; 
   }
   .nav-links {
-    display: flex; /* Arrange links horizontally */
-    list-style: none; /* Remove default bullet points */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    display: flex;
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
     font-family: 'Space Grotesk';
   }
   .nav-links li {
-    margin-right: 1rem; /* Add spacing between links */
+    margin-right: 1rem; 
   }
   .nav-links a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #ffffff; /* Dark gray text color */
-    font-weight: 500; /* Slightly bolder font for links */
-    padding: 0.5rem 1rem; /* Add some padding for clickability */
+    text-decoration: none; 
+    color: #ffffff; 
+    font-weight: 500; 
+    padding: 0.5rem 1rem; 
   }
   .nav-links a:hover {
     color: #ffffff;
@@ -110,14 +110,10 @@ header{
     background: linear-gradient(to right, #eddebf 40%, #890008 60%);
     opacity: 1;
   }
+  .bathome:hover{
+      width: 22rem;
+  }
   /*====================  MAIN ====================*/
-  /* .container{
-    border: solid 5px #bcbbbd;
-    border-top: 0;
-    border-bottom: 0;
-    margin-left: 4%;
-    margin-right: 4%; 
-  }*/
   .fleche-down-header{
     position: absolute;
     left: 50%;
@@ -232,3 +228,39 @@ header{
  .bande-annonce{
   padding-top: 90px;
  }
+/* réplique */
+#replique{
+  padding-top: 8rem;
+  padding-left: 10rem;
+}
+.replique{
+  text-align: center;
+}
+.replique-para{
+  color: #ffffff;
+}
+.replique-auteur{
+  color: #c4c4c4;
+  font-size: 12px;
+  font-family: 'Space Grotesk';
+}
+.icon-guillemets-2{
+  padding-left: 62rem;
+}
+/* FOOTER */
+footer{
+  padding-top: 6rem;
+}
+.para-footer{
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Space Grotesk';
+  text-align: center;
+  padding-left: 10rem;
+  position: relative;
+}
+.icon-wb{
+  position: absolute;
+  left: 465px;
+  
+}
