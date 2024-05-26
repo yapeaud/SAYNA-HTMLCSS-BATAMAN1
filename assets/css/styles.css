@@ -264,3 +264,15 @@ footer{
   left: 465px;
   
 }
+.icon-footer{
+  padding-top: 60px;
+  text-align: center;
+  padding-left: 8%;
+}
+.icon_x,.icon_facebook,.icon_ig,.icon_tw{
+  padding-bottom: 0.7rem;
+  padding-left: 25px;
+}
+.icon_DC{
+  padding-left: 25px;
+}
