@@ -1,278 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap'); */
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../fonts/Rajdhani-Medium.ttf');
+}
+
+:root {
+    --yellow-color: #ffff00;
+    --light-yellow-color: #f8f184;
+    --steel-blue-color: #19587d;
+    --garnet-red-color: #b11313;
+    --charcoal-black-color: #0d0e09;
+    --light-gray-color: #c4c4c4;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gradient-red: #89000978;
+    --gradient-white: #eddebf67;
+    --gradient-blue: #19587d8b;
+  }
 
 *{
     margin: 0;
     padding: 0;
-}
-body{
-  background-color: #000;
-}
-/*==================== HEADER ====================*/
-header{
-    background-image: url('/assets/images/Illustrations/Bathome1.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
+    box-sizing: border-box;
 }
 
-/* menu de navigation */
-.navbar{ 
-    margin-left: 4%;
-    margin-right: 4%;
-    padding-top: 1%;
-    padding-bottom: 4%;
+h1{
+    font-family: Rajdhani;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 36px;
 }
-.nav-logo {
+
+button{
+    font-family: 'Rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Space-Grotesk';
+    font-weight: 300;
+}
+
+/* DESIGNE DU MENU DE NEVIGATION */
+
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .logo {
-    margin-right: 1rem; 
-  }
-  .nav-links {
-    display: flex;
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Space Grotesk';
-  }
-  .nav-links li {
-    margin-right: 1rem; 
-  }
-  .nav-links a {
-    text-decoration: none; 
-    color: #ffffff; 
-    font-weight: 500; 
-    padding: 0.5rem 1rem; 
-  }
-  .nav-links a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: bold ;
-  }
-  /* intro */
-  .para-intro{
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    padding-top: 16rem;
-  }
-  .para-intro-bold{
-    font-weight: bold;
-  }
-  
-  .img1{
-    position: absolute;
-    top: 35%;
-    left: 92%;
-  }
-  .img2{
-    position: absolute;
-    top: 45%;
-    left:95%;
-  }
-  .img3{
-    position: absolute;
-    top: 55%;
-    left:95%;
-  }
-  .img4{
-    position: absolute;
-    top: 65%;
-    left:95%;
-  }
-  .img5{
-    position: absolute;
-    top: 70%;
-    left: 92%;
-  }
-  /* .intro-logo{
-    
-  } */
-  .btn-intro{
-    background: linear-gradient(to right, #eddebf 40%, #890008 60% );
-    color: #ffffff;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-family: Rajdhani;
-    opacity: 0.4;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    font-size: 20px;
-  }
-  .btn-intro:hover {
-    background: linear-gradient(to right, #eddebf 40%, #890008 60%);
-    opacity: 1;
-  }
-  .bathome:hover{
-      width: 22rem;
-  }
-  /*====================  MAIN ====================*/
-  .fleche-down-header{
-    position: absolute;
-    left: 50%;
-  }
+    padding: 30px 0;
+}
 
-  /* batman au cinéma */
-  .voir-le-hero, .les-adversaires, .allies{
-    padding-top: 8rem;
-    padding-left: 8rem;
-    padding-right: 16rem;
-  }
-  h1{
-    color: #ffffff;
-    font-family: Rajdhani;
-    font-size: 36px;
-    padding-bottom: 1rem;
-  }
-  .para{
-    color: #ffffff;
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    text-align: justify;
-    padding-bottom: 4em;
-  }
-  .para-img{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .st{
-    color: #ffffff;
-    text-align: center;
-  }
+ul{
+    list-style: none;
+}
 
-  /* némésis */
-  .bathome13{
-    width: 155px;
-    position: absolute;
-    left: 12rem;
-    top: 108rem;
-  }
+nav ul a{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Rajdhani';
+}
+nav ul a:hover{
+    color: var(--yellow-color);
+}
 
-  /* alliés */
-  .bathome12{
-    width: 350px;
-    position: absolute;
-    right: 0rem;
-    top: 158rem;
-  }
-  .allies{
-    padding-top: 12rem;
-  }
- 
-  /* justice league */
-  .justice-league{
-    padding-top: 8rem;
-    padding-left: 12rem;
-  }
-  .para-jl{
-    color: #ffffff;
-    width:800px;
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    text-align: justify;
-  }
-  .bg-jl{
-    background-image: url('/assets/images/Illustrations/Bathome11.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* DESIGNE DE LA SECTION HERO */
+
+#hero{
+    background-image: url('../images/Illustrations/Bathome1.png');
     height: 800px;
-    margin-top: 10rem;
-  }
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 
-  /* multimédia */
-  #multimedia{
-    padding-left: 12rem;
-  }
-  .multi-genre{
-    background: linear-gradient(149deg, #eddebf 40%, #19587d 40% );
-    opacity: 0.4;
-    color: #ffffff;
-    width: 35rem;
-    height: 180px;
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+#hero .titre{
+    margin: 20px 0;
+}
+
+ .btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 22px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    background: linear-gradient(
+        80deg, var(--gradient-white), var(--gradient-red)
+    );
+    box-shadow: var(--black-color) 15px 15px 50px;
+ }
+
+ #hero .fleche{
+    display: block;
+    margin: 0 auto;
+    margin-top: 285px;
+ }
+
+ .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 80px;
+    top: 230px;
+ }
+
+ .scroll .social{
+    margin-top: 15px;
+ }
+
+/* DESIGNE DE LA SECTION BATMAN PERSONNAGE*/
+
+#batman-cinema, #batman-nemesis , #batman-allies, #batman-Justice-league{
+    margin-top: 40px;
+}
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+
+#batman-cinema .titre, #batman-nemesis .titre, #batman-allies .titre, #batman-Justice-league .titre{
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+#batman-cinema .description, #batman-nemesis .description, #batman-allies .description, #batman-Justice-league .description{
+    margin-bottom: 40px;
     text-align: justify;
-    font-family: 'Space Grotesk';
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-left: 20px;
-    padding-bottom: 30px;
-    border: #19587d 1px solid;
- }
- .multi-text-color{
-  color: #f8f184;
- }
- .multimedia{
-  display: flex;
-  position: relative;
- }
+    width: 80%;
+    font-size: 21px;
+}
 
- .fleche1{
-  position: absolute;
-  top: 6rem;
- }
- .fleche2{
-  position: absolute;
-  top: 6rem;
-  left: 55rem;
- }
- .bathome-ba1{
-  padding-left: 4.5rem;
- }
- .bande-annonce{
-  padding-top: 90px;
- }
-/* réplique */
-#replique{
-  padding-top: 8rem;
-  padding-left: 10rem;
+#batman-cinema .personnage-info,  #batman-nemesis .personnage-info, #batman-allies .personnage-info{
+    text-align: center;
 }
-.replique{
-  text-align: center;
+
+/* DESIGNE DE LA SECTION MULTIMÉDIA */
+
+#batman-multimedia .slider-multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
 }
-.replique-para{
-  color: #ffffff;
+
+
+#batman-multimedia .slider-image{
+    width: 100%;
 }
-.replique-auteur{
-  color: #c4c4c4;
-  font-size: 12px;
-  font-family: 'Space Grotesk';
+
+#batman-multimedia .slider-content{
+    padding: 15px;
+    text-align: justify;
+    background: linear-gradient(80deg, var(--gradient-white), var(--gradient-blue));
 }
-.icon-guillemets-2{
-  padding-left: 62rem;
+
+#batman-multimedia h3, #batman-multimedia p{
+    padding-top: 15px;
 }
-/* FOOTER */
-footer{
-  padding-top: 6rem;
+#batman-multimedia p{
+    font-size: 14px;
 }
-.para-footer{
-  color: #ffffff;
-  font-size: 10px;
-  font-family: 'Space Grotesk';
-  text-align: center;
-  padding-left: 10rem;
-  position: relative;
-}
-.icon-wb{
-  position: absolute;
-  left: 465px;
-  
-}
-.icon-footer{
-  padding-top: 60px;
-  text-align: center;
-  padding-left: 8%;
-}
-.icon_x,.icon_facebook,.icon_ig,.icon_tw{
-  padding-bottom: 0.7rem;
-  padding-left: 25px;
-}
-.icon_DC{
-  padding-left: 25px;
+
+#batman-multimedia span{
+    color: var(--light-yellow-color);
 }
