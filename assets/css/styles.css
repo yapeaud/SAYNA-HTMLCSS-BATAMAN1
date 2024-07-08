@@ -12,6 +12,7 @@
     --charcoal-black-color: #0d0e09;
     --light-gray-color: #c4c4c4;
     --white-color: #ffffff;
+    --light-white-color: #ffffff51;
     --black-color: #000000;
     --gradient-red: #89000978;
     --gradient-white: #eddebf67;
@@ -51,6 +52,27 @@ body{
 
 /* DESIGNE DU MENU DE NEVIGATION */
 
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--light-white-color);
+    margin: 20px auto; /* Marges haut et bas */
+    width: 90%; /* Largeur de 50% de la page */
+}
+
+.vertical-left{
+    border-left: 2px solid var(--light-white-color);
+    height: 900px;
+    position: absolute;
+    left: 65px;
+}
+
+.vertical-right{
+    border-left: 2px solid var(--light-white-color);
+    height: 900px;
+    position: absolute;
+    right: 66px;
+}
 nav{
     display: flex;
     align-items: center;
@@ -92,7 +114,8 @@ nav ul a:hover{
 }
 
 #hero .titre{
-    margin: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
  .btn{
@@ -110,7 +133,7 @@ nav ul a:hover{
  #hero .fleche{
     display: block;
     margin: 0 auto;
-    margin-top: 285px;
+    margin-top: 450px;
  }
 
  .scroll {
@@ -118,7 +141,7 @@ nav ul a:hover{
     flex-direction: column;
     align-items: center;
     position: fixed;
-    right: 80px;
+    right: 14px;
     top: 230px;
  }
 
@@ -128,8 +151,11 @@ nav ul a:hover{
 
 /* DESIGNE DE LA SECTION BATMAN PERSONNAGE*/
 
-#batman-cinema, #batman-nemesis , #batman-allies, #batman-Justice-league{
-    margin-top: 40px;
+#batman-cinema{
+    margin-top: 300px;
+}
+#batman-nemesis , #batman-allies, #batman-Justice-league{
+    margin-top: 20px;
 }
 .batman-personnage{
     display: flex;
