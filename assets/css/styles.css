@@ -62,14 +62,14 @@ hr {
 
 .vertical-left{
     border-left: 2px solid var(--light-white-color);
-    height: 900px;
+    height: 4000px;
     position: absolute;
     left: 65px;
 }
 
 .vertical-right{
     border-left: 2px solid var(--light-white-color);
-    height: 900px;
+    height: 4000px;
     position: absolute;
     right: 66px;
 }
@@ -154,12 +154,27 @@ nav ul a:hover{
 #batman-cinema{
     margin-top: 300px;
 }
+
 #batman-nemesis , #batman-allies, #batman-Justice-league{
     margin-top: 20px;
 }
+
 .batman-personnage{
     display: flex;
     justify-content: space-between;
+}
+
+.batman-item {
+    width: 300px;
+}
+
+.batman-item img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.batman-item img:hover{
+    transform: scale(1.2);
 }
 
 #batman-cinema .titre, #batman-nemesis .titre, #batman-allies .titre, #batman-Justice-league .titre{
@@ -178,7 +193,58 @@ nav ul a:hover{
     text-align: center;
 }
 
+/* DESIGNE DE LA SECTION NÉMÉSIS */
+
+#batman-nemesis .img-batman-nemesis{
+    width: 130px;
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+
+/* DESIGNE DE LA SECTION  ALLIES */
+
+.bathome12{
+    width: 400px;
+    float: right;
+    margin-top: -230px;
+}
+
+#batman-allies{
+    padding-top: 225px;
+}
+
 /* DESIGNE DE LA SECTION MULTIMÉDIA */
+
+.vertical-left-multimedia{
+    border-left: 2px solid var(--light-white-color);
+    height: 1160px;
+    position: absolute;
+    left: 65px;
+}
+
+.vertical-right-multimedia {
+    border-left: 2px solid var(--light-white-color);
+    height: 1160px;
+    position: absolute;
+    right: 66px;
+}
+
+#batman-multimedia .left{
+    position: relative;
+    top: 185px;
+    left: 100px;
+    background-color: var(--black-color);
+    border: none;
+}
+#batman-multimedia .right{
+    float: right;
+    position: relative;
+    top: 185px;
+    right: 100px;
+    background-color: var(--black-color);
+    border: none;
+}
 
 #batman-multimedia .slider-multimedia{
     display: flex;
@@ -195,6 +261,7 @@ nav ul a:hover{
     padding: 15px;
     text-align: justify;
     background: linear-gradient(80deg, var(--gradient-white), var(--gradient-blue));
+    border-radius: 0 15px 15px 0;
 }
 
 #batman-multimedia h3, #batman-multimedia p{
@@ -206,4 +273,21 @@ nav ul a:hover{
 
 #batman-multimedia span{
     color: var(--light-yellow-color);
+}
+
+/* DESIGNE DE LA SECTION PRENONS CONTACT */
+
+#batman-contact{
+    background: linear-gradient(80deg, var(--gradient-white), var(--gradient-blue));
+    margin-top: 140px;
+}
+
+#batman-contact h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#batman-contact form{
+    width: 50%;
+    margin: 0 auto;
 }
