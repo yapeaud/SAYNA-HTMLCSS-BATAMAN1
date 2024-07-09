@@ -96,6 +96,21 @@ nav ul a:hover{
     color: var(--yellow-color);
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Appliquer l'animation fade-in-left à l'élément */
+.fade-in-left {
+    animation: fadeInLeft 2s ease-in-out;
+}
 /* DESIGNE DE LA SECTION HERO */
 
 #hero{
@@ -131,7 +146,18 @@ nav ul a:hover{
     );
     box-shadow: var(--black-color) 15px 15px 50px;
  }
-
+ .btn:hover{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 22px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    background: linear-gradient(
+        80deg, rgba(var(--gradient-red), 0.2), rgba(var(--gradient-white), 1)
+    );
+    box-shadow: var(--black-color) 15px 15px 50px;
+    opacity: 1;
+ }
  #hero .fleche{
     display: block;
     margin: 0 auto;
