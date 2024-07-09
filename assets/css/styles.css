@@ -1,7 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap'); */
 @font-face {
     font-family: 'Rajdhani';
-    src: url('../fonts/Rajdhani-Medium.ttf');
+    src: url('../fonts/Rajdhani-Regular.ttf');
+    font-family: 'Space-Grotesk';
+    src: url('../fonts/SpaceGrotesk-Medium.ttf');
 }
 
 :root {
@@ -26,7 +28,7 @@
 }
 
 h1{
-    font-family: Rajdhani;
+    font-family: 'Rajdhani';
     color: var(--white-color);
     font-weight: 400;
     font-size: 36px;
@@ -44,7 +46,7 @@ button{
 }
 
 body{
-    background-color: black;
+    background-color: var(--charcoal-black-color);
     color: white;
     font-family: 'Space-Grotesk';
     font-weight: 300;
@@ -353,4 +355,55 @@ input[type="submit"]{
 }
 
 /* DESIGNE DE LA SECTION RÉPLIQUE */
+ #replique{
+    padding-top: 150px;
+}
 
+#replique .iconguillemets1{
+   padding-left: 200px;
+}
+
+#replique .citation{ 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#replique .author{
+    color: var(--light-gray-color);
+    font-size: 12px;
+    text-align: center;
+}
+
+#replique .iconguillemets2{
+    padding-left: 1070px;
+} 
+
+/* DESIGNE DE LA SECTION FOOTER */
+
+footer{
+    margin-top: 100px; 
+    text-align: center;
+    font-family: 'Space-Grotesk';
+    font-size: 12px;
+}
+
+.footer-icons{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.iconx, .iconfb, .iconig, .icontw{
+   padding: 15px;
+}
+.vertical-left-footer{
+    border-left: 2px solid var(--light-white-color);
+    height: 700px;
+    position: absolute;
+    left: 65px;
+}
+
+.vertical-right-footer {
+    border-left: 2px solid var(--light-white-color);
+    height: 700px;
+    position: absolute;
+    right: 66px;
+}
