@@ -62,14 +62,14 @@ hr {
 
 .vertical-left{
     border-left: 2px solid var(--light-white-color);
-    height: 4000px;
+    height: 4080px;
     position: absolute;
     left: 65px;
 }
 
 .vertical-right{
     border-left: 2px solid var(--light-white-color);
-    height: 4000px;
+    height: 4080px;
     position: absolute;
     right: 66px;
 }
@@ -185,7 +185,7 @@ nav ul a:hover{
 #batman-cinema .description, #batman-nemesis .description, #batman-allies .description, #batman-Justice-league .description{
     margin-bottom: 40px;
     text-align: justify;
-    width: 80%;
+    width: 100%;
     font-size: 21px;
 }
 
@@ -252,7 +252,6 @@ nav ul a:hover{
     margin: 40px auto;
 }
 
-
 #batman-multimedia .slider-image{
     width: 100%;
 }
@@ -285,9 +284,73 @@ nav ul a:hover{
 #batman-contact h2{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #batman-contact form{
     width: 50%;
     margin: 0 auto;
 }
+
+input[type="email"], textarea{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid var(--light-white-color);
+    background-color: transparent;
+    width: 100%;
+    color: var(--white-color);
+}
+
+#batman-contact .newsletter{
+    margin-bottom: 30px;
+}
+
+#batman-contact .batman-contact-new{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#batman-contact .actu{
+    margin-top: 15px;
+    width: 80%;
+ }
+
+#batman-contact .batman-contact-para-new {
+    border-bottom: 2px solid var(--light-white-color);
+  }
+
+#batman-contact .batman-contact-para-news{
+    border-bottom: 2px solid var(--white-color);
+}
+
+#batman-contact .iconfleche3{
+    width: 16px;
+}
+#batman-contact .batman-contact-btn{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Rajdhani';
+}
+#batman-contact .btn-items{
+    text-decoration: none;
+    color: var(--white-color);
+    border: 1px solid;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(80deg, var(--gradient-white), var(--gradient-blue));
+}
+
+#batman-contact .batman-contact-msg{
+    text-align: center;
+}
+input[type="submit"]{
+   padding: 10px 20px;
+   margin-bottom: 50px;
+   color: var(--white-color);
+   background: linear-gradient(80deg, var(--gradient-white), var(--gradient-red));
+   border: none;
+}
+
+/* DESIGNE DE LA SECTION RÉPLIQUE */
+
