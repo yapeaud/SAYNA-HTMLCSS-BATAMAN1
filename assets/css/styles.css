@@ -160,7 +160,9 @@ nav ul a:hover{
 #batman-nemesis , #batman-allies, #batman-Justice-league{
     margin-top: 20px;
 }
-
+#batman-Justice-league{
+    margin-top: 100px;
+}
 .batman-personnage{
     display: flex;
     justify-content: space-between;
@@ -220,14 +222,14 @@ nav ul a:hover{
 
 .vertical-left-multimedia{
     border-left: 2px solid var(--light-white-color);
-    height: 1160px;
+    height: 1195px;
     position: absolute;
     left: 65px;
 }
 
 .vertical-right-multimedia {
     border-left: 2px solid var(--light-white-color);
-    height: 1160px;
+    height: 1195px;
     position: absolute;
     right: 66px;
 }
@@ -236,7 +238,7 @@ nav ul a:hover{
     position: relative;
     top: 185px;
     left: 100px;
-    background-color: var(--black-color);
+    background-color: var(--charcoal-black-color);
     border: none;
 }
 #batman-multimedia .right{
@@ -244,7 +246,7 @@ nav ul a:hover{
     position: relative;
     top: 185px;
     right: 100px;
-    background-color: var(--black-color);
+    background-color: var(--charcoal-black-color);
     border: none;
 }
 
