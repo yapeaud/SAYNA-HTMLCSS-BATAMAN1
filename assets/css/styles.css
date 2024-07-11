@@ -109,7 +109,7 @@ nav ul a:hover{
 
 /* Appliquer l'animation fade-in-left à l'élément */
 .fade-in-left {
-    animation: fadeInLeft 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
 }
 /* DESIGNE DE LA SECTION HERO */
 
@@ -337,14 +337,16 @@ input[type="email"], textarea{
 }
 
 #batman-contact .batman-contact-new{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 #batman-contact .actu{
-    margin-top: 15px;
+    margin-top: 25px;
     width: 80%;
  }
-
+ #batman-contact .iconfleche3{
+    margin-left: 75px;
+ }
 #batman-contact .batman-contact-para-new {
     border-bottom: 2px solid var(--light-white-color);
   }
@@ -403,13 +405,31 @@ input[type="submit"]{
 }
 
 #replique .iconguillemets2{
-    padding-left: 1070px;
+    position: relative;
+    top: 150px;
+    padding-left: 1045px;
 } 
+
+.svg-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 25px;
+ }
+
+ .cercle{
+    fill: none;
+    stroke: var(--steel-blue-color);
+    stroke-width: 2px;
+ }
+
+ .cercle-rempli{
+    fill: var(--steel-blue-color);
+ }
 
 /* DESIGNE DE LA SECTION FOOTER */
 
 footer{
-    margin-top: 100px; 
     text-align: center;
     font-family: 'Space-Grotesk';
     font-size: 12px;
